@@ -1,0 +1,209 @@
+"","station_id","station_name","lon","lat"
+"1",131543,"Landungsbrücke/Hafentor",9.9723,53.5457
+"2",131546,"Fischmarkt/Breite Straße",9.95088,53.5462
+"3",131547,"Paulinenplatz/Wohlwillstraße",9.96246,53.5542
+"4",131639,"Burgstraße/Hammer Landstraße",10.041298,53.555693
+"5",131640,"Innocentiapark/Oberstraße",9.98211,53.577248
+"6",131641,"Goebenstraße/Eppendorfer Weg",9.963063,53.577579
+"7",131642,"Osterstraße/Bismarckstraße",9.962395,53.573183
+"8",131643,"Christuskirche/Fruchtallee",9.96309,53.5695
+"9",131644,"Eimsbütteler Straße/Waterloostraße",9.9534,53.5662
+"10",131645,"Ottenser Marktplatz/Museumsstraße",9.934844,53.547905
+"11",131646,"Bahnhof Altona Ost/Max-Brauer-Allee",9.936005,53.552121
+"12",131647,"Kurze Mühren/Spitalerstraße",10.00415,53.552611
+"13",131648,"Schulterblatt/Eifflerstraße",9.96099,53.562709
+"14",131649,"Große Bergstraße / Jessenstraße",9.94576,53.5512
+"15",131650,"Königstraße / Struenseestraße",9.94241,53.5471
+"16",131651,"Kurt-Schumacher-Allee / Nagelsweg",10.016,53.5517
+"17",131652,"Berliner Tor / Berlinertordamm",10.0246,53.5533
+"18",131653,"Zentralbibliothek / Münzstraße",10.008849,53.550332
+"19",131654,"Steinstraße / Deichtorplatz",10.005325,53.548562
+"20",131872,"Hauptbahnhof West / Glockengießer Wall",10.004553,53.553676
+"21",131873,"Hauptbahnhof Ost / Hachmannplatz",10.007652,53.554307
+"22",131875,"Jacobikirche / Steinstraße",10.0015,53.5503
+"23",131877,"Meßberg / Willy-Brandt-Straße",9.998774,53.547805
+"24",131879,"Jungfernstieg / Ballindamm",9.995501,53.552244
+"25",131880,"Mönckebergstraße / Rosenstraße",9.99714,53.550722
+"26",131881,"Universität / Schlüterstraße",9.986076,53.566972
+"27",131882,"Universität / Moorweidenstraße",9.987659,53.563755
+"28",131883,"Bahnhof Dammtor Nord // Theodor-Heuss-Platz",9.99043,53.5614
+"29",131884,"Gänsemarkt / Büschstraße",9.990091,53.556282
+"30",131885,"Rödingsmarkt / Großer Burstah",9.98695,53.5483
+"31",131887,"Enckeplatz / Hütten",9.97695,53.5524
+"32",131888,"Messehallen / Marktstraße",9.975346,53.558518
+"33",131889,"Bahnhof Altona West / Busbahnhof",9.93387,53.5518
+"34",131890,"Neuer Pferdemarkt / Beim Grünen Jäger",9.963824,53.558869
+"35",131902,"Reeperbahn / Königstraße",9.954934,53.549501
+"36",131905,"Millerntorplatz/St.Pauli",9.97033,53.551
+"37",137994,"Harvestehuder Weg / Alte Rabenstraße",10.0011,53.5672
+"38",137995,"Hallerstraße / Rohtenbaumchaussee",9.988801,53.572081
+"39",138372,"Uhlandstraße / Eingang Nord",10.0267,53.565
+"40",138375,"Lerchenfeld / Uferstraße",10.0318,53.567
+"41",138376,"Jarrestraße / Rambatzweg",10.0211,53.584
+"42",138378,"Hudtwalckerstraße / Bebelallee",9.99575,53.5943
+"43",138379,"Stadthausbrücke / Neuer Wall",9.986594,53.549672
+"44",138380,"Jungfernstieg / Neuer Jungfernstieg",9.9914,53.555
+"45",138382,"Bahnhof Dammtor Süd / Marseiller Straße",9.98963,53.5602
+"46",138383,"Kleine Rosenstraße / Gerhart-Hauptmann-Platz",9.99843,53.5516
+"47",138384,"Lange Reihe / Kirchenallee",10.0082,53.5552
+"48",138385,"Lange Reihe / Lohmühlenpark",10.0149,53.5599
+"49",138386,"Michaeliskirche / Krayenkamp",9.97942,53.547975
+"50",138387,"Mönckebergstraße / Steintorwall",10.0054,53.5516
+"51",138389,"Steindamm / Stralsunder Straße",10.013306,53.554216
+"52",139498,"Chemnitzstraße / Max-Brauer-Allee",9.94286,53.5553
+"53",139501,"Sternschanze / Eingang Dänenweg",9.96925,53.564227
+"54",139508,"Eppendorfer Baum / Isestraße",9.98441,53.5832
+"55",140790,"Hammerbrook / Sachsenfeld",10.024042,53.546011
+"56",140791,"Lohmühlenstraße / Steindamm",10.0199,53.5572
+"57",140793,"Martinistraße / Haupteingang Klinikum",9.975715,53.588918
+"58",140794,"Kümmellstraße / Robert-Koch-Straße",9.98673,53.590237
+"59",140795,"Kellinghusenstraße / Loogeplatz",9.991125,53.588516
+"60",140796,"Goldbekplatz / Semperstraße",10.01,53.5838
+"61",140799,"Mundsburg / Schürbeker Straße",10.0271,53.5696
+"62",140800,"Eduard-Rhein-Ufer / Schwanenwik",10.0162,53.5677
+"63",140801,"Wartenau / Lübecker Straße",10.0341,53.5636
+"64",140802,"Landwehr / Ramazan-Avci-Platz",10.037022,53.561109
+"65",140803,"Lübecker Straße / Marienkrankenhaus",10.0285,53.5597
+"66",140804,"Isestraße / Hoheluftbrücke",9.97721,53.578
+"67",158204,"Alter Wall/Adolphsbrücke",9.99011,53.550193
+"68",163327,"Axel-Springer-Platz/Wexstraße",9.985161,53.551853
+"69",164033,"Sievekingplatz/Gorch-Fock-Wall",9.979697,53.556061
+"70",171372,"Wilhelmsburger Platz/Zur Schleuse",10.01481,53.522794
+"71",193238,"Am Kaiserkai/Großer Grasbrook",9.992856,53.541838
+"72",193381,"Unilever/Strandkai",9.99365,53.53958
+"73",196417,"Bernhard-Nocht-Straße/Zirkusweg",9.965669,53.54732
+"74",198077,"Allende-Platz/Grindelhof",9.982728,53.567845
+"75",198081,"Alsterschwimmhalle/Ifflandstraße",10.022148,53.560781
+"76",198086,"Eppendorfer Weg/Hoheluftchaussee",9.97172,53.581771
+"77",198088,"Borgweg/Stadtpark",10.015021,53.592022
+"78",199402,"Mannesallee/Veringstraße",9.987298,53.514265
+"79",200502,"Hofweg/Am Langenzug",10.013995,53.578035
+"80",201324,"Methfesselstraße/Luruper Weg",9.946786,53.58006
+"81",201326,"Heußweg/Wiesenstraße",9.953073,53.577796
+"82",201328,"Süderfeldstraße/Universitätsklinikum Eppendorf",9.973,53.594
+"83",201329,"Osakaallee/Übersee Quartier",9.999731,53.541583
+"84",203890,"Saarlandstraße/Wiesendamm",10.03268,53.588735
+"85",203892,"Südring/Stadthallenbrücke",10.030327,53.591446
+"86",204029,"Dehnhaide/Barmbeker Markt",10.041461,53.579981
+"87",204030,"Wandsbeker Chaussee/Ritterstraße",10.044484,53.567126
+"88",204031,"Hasselbrookstraße/Papenstraße",10.054679,53.564805
+"89",204032,"Wandsbeker Marktstraße/Wandsbeker Marktplatz",10.068955,53.572433
+"90",207304,"Schloßstrasse/Schloßgarten",10.068644,53.571664
+"91",207619,"Uferstraße/Wagnerstraße",10.039741,53.571078
+"92",208292,"Winterhuder Weg/ Zimmerstraße",10.02045,53.575308
+"93",208295,"Krausestraße/Eilbektal",10.058237,53.576238
+"94",208307,"Schleidenstraße/Osterbekstraße",10.03369,53.584582
+"95",211706,"Alsenstraße/Düppelstraße",9.948345,53.563037
+"96",211709,"Bahrenfelder Straße/Völckersstraße",9.927945,53.556897
+"97",211710,"Eulenstraße/Große Brunnenstraße",9.925653,53.550816
+"98",211711,"Fischersallee/Bleickenallee",9.92226,53.550966
+"99",211920,"Billstraße/Billhorner Deich",10.04287,53.540103
+"100",211921,"Holsteinischer Kamp/ Wagnerstraße",10.036608,53.574518
+"101",211922,"Weidestraße/Biedermannplatz",10.033846,53.5800038
+"102",211923,"Bartholomäusstraße/Beim Alten Schützenhof",10.02957,53.575652
+"103",212078,"Bei der Hammer Kirche/Hammerpark",10.055075,53.556699
+"104",212079,"Eiffestrasse/Normannenweg",10.030364,53.552123
+"105",212607,"Wiesendamm/Roggenkamp",10.042993,53.586958
+"106",213235,"St.Petersburger Straße/Bei den Kirchhöfen",9.981839,53.559762
+"107",213277,"Großneumarkt/Thielbek",9.980459,53.550977
+"108",213679,"U-Bahn Schlump",9.969601,53.567991
+"109",213680,"Löwenstraße/Eppendorfer Weg",9.977916,53.583795
+"110",213687,"Überseering/Mexikoring",10.024745,53.601619
+"111",213688,"Planetarium/Hindenburgstraße",10.01365,53.59595
+"112",213792,"Koppelstraße/Lokstedter Grenzstraße",9.943525,53.593587
+"113",213825,"Emilienstraße/Fruchtallee",9.953138,53.57169
+"114",213832,"Domstraße/Willy-Brandt-Straße",9.994057,53.547486
+"115",213833,"Lortzingstraße/Friedrichsberger Straße",10.049568,53.573588
+"116",213855,"Bebelallee/Meenkwiese",9.994017,53.599203
+"117",213856,"Neumühlen/Övelgönne",9.914731,53.544302
+"118",214170,"U-Bahn Baumwall",9.980896,53.544279
+"119",218173,"Rothenburgsort/Marktplatz/Lindleystraße",10.038938,53.534288
+"120",218174,"Amsinckstraße/ Nordkanalbrücke",10.012361,53.547868
+"121",218635,"Auf dem Sande/Kehrwieder-MiniaturWunderland",9.98971,53.543731
+"122",218636,"Schopenstehl/Alter Fischmarkt",9.997126,53.548703
+"123",224650,"Leinpfad/Fernsicht",9.999404,53.580391
+"124",226605,"Barkassenanleger/Mengestraße",9.99647,53.499748
+"125",226607,"Neunenfelder Straße/ Kurt-Emmerich-Platz",10.003843,53.497232
+"126",227415,"Wandsbeker Chaussee/ Börnestraße",10.059528,53.57047
+"127",227770,"Berta-Kröger-Platz/Wilhelm-Strauß-Weg",10.007016,53.497933
+"128",229760,"OTTO Group / Wandsbeker Straße",10.070397,53.60026
+"129",230054,"Grasbrookpark/Überseequartier",9.997945,53.540282
+"130",233536,"Troplowitzstraße / Beiersdorf  / NXP",9.957594,53.582793
+"131",239807,"Bullerdeich/Stadtreinigung Hamburg",10.03685,53.544979
+"132",241777,"Reeseberg/EBV-Anzengruberstraße",9.990306,53.44896
+"133",242358,"Moorstraße/Bahnhof Harburg",9.987994,53.457286
+"134",242642,"Herbert-Wehner-Platz/Großer Schippsee",9.983319,53.460407
+"135",242643,"Harburger Ring/Neue Straße",9.9775729,53.4606874
+"136",242645,"Harburger Rathausstraße/Deichhausweg",9.9804731,53.4599586
+"137",242727,"Kanalplatz/Harburger Schlossstraße",9.984148,53.4665
+"138",242729,"Alter Postweg / Heimfelder Straße",9.963537,53.465276
+"139",242730,"TU Harburg/Denickestraße",9.969487,53.460622
+"140",242732,"Gotthelfweg/Außenmühlenteich",9.980675,53.447625
+"141",242770,"Schellerdamm/Hausnummer22",9.986136,53.464282
+"142",242771,"Fuhlsbüttler Straße/Hellbrookstraße",10.044508,53.59146
+"143",243616,"Bogenstraße / Grindelallee",9.977694,53.5712
+"144",243617,"Sophienallee / Sandweg",9.94977,53.569769
+"145",243618,"Lappenbergsallee / Bei der Apostelkirche",9.944487,53.575573
+"146",243619,"Emil-Andresen-Straße / Lohkoppelweg",9.952055,53.59285
+"147",243620,"Herthastraße / Einkaufszentrum Bramfeld",10.075913,53.611878
+"148",243621,"Friedrich-Ebert-Damm / Lomerstraße",10.079638,53.584919
+"149",244093,"Feldstraße / Marktstraße",9.969178,53.557414
+"150",244935,"Caffamacherreihe/Valentinskamp.",9.984209,53.555722
+"151",244936,"Sievekingsallee/Sievekingdamm",10.052589,53.560835
+"152",244937,"Horner Weg/Morahtstieg",10.066926,53.555503
+"153",244938,"Horner Rennbahn/ Meurer Weg",10.085077,53.554193
+"154",244939,"Osterbrookplatz/ Süderstraße",10.057613,53.546932
+"155",244942,"Mittelweg/Sophienterrasse-NDR",9.993122,53.576378
+"156",244943,"Große Rainstraße/Ottenser Hauptstraße",9.930344,53.552339
+"157",244944,"Hohenzollernring/Friedensallee",9.918508,53.55671
+"158",244945,"Friedensallee/Hegarstraße ( S Bahn Bahrenfeld ) ",9.908946,53.56026
+"159",244946,"Dürerstraße/Beslerplatz- S Bahn Othmarschen",9.887159,53.560395
+"160",245203,"Alsterdorfer Straße/Fuhlsbüttler Straße",10.032,53.62
+"161",245204,"Fuhlsbüttler Straße/Hartzloh",10.041,53.601
+"162",245434,"Eißendorfer Pferdeweg/ Asklepios-Klinik Harburg",9.951,53.459
+"163",245452,"Versmannstraße/Am Hannoverschen Bahnhof",10.006168,53.540782
+"164",247483,"Paul-Ehrlich-Straße/Asklepios Klinik Altona",9.900752,53.554433
+"165",247846,"Niendorf Markt/Tibarg",9.9513113,53.6190722
+"166",247847,"Nordalbinger Weg/Paul-Sorge-Straße",9.9500955,53.6408352
+"167",247851,"Langenhorn Markt/Tangstedter Landstraße",10.0163663,53.6487572
+"168",247852,"Weidestraße /Johannes-Prassek-Park",10.0258479,53.5808087
+"169",248511,"Habichtstraße/Steilshooper Straße",10.0506397,53.593726
+"170",250340,"Hugo-Kirchberg-Straße/Tesa",9.98528,53.65429
+"171",251476,"Georg-Wilhelm-Straße/Mankiewicz",9.99,53.494
+"172",252479,"Hindenburgstraße/Möringbogen",10.012225,53.606177
+"173",252481,"Nordschleswiger Straße/Dulsberg-Nord",10.06523,53.585813
+"174",252483,"Grandweg/Veilchenweg",9.964681,53.589185
+"175",252484,"Siemersplatz/Kollaustraße",9.963929,53.600072
+"176",252485,"Langenfelder Damm/Müggenkampstraße",9.938418,53.580757
+"177",252486,"Randstraße/ Stellingen",9.919356,53.590248
+"178",252487,"DESY/Notkestraße",9.878527,53.574537
+"179",252488,"Große Elbstraße/Van-der-Smissen-Straße",9.94246,53.543906
+"180",252492,"Thadenstraße/Holstenstraße",9.950708,53.555827
+"181",252493,"Elbchaussee/Teufelsbrück",9.862013,53.547425
+"182",252494,"Ohnhorststraße/Klein Flottbek",9.86216,53.558587
+"183",252496,"Caspar-Voght-Straße/Sievekingsallee",10.061703,53.559893
+"184",252497,"Riedweg/Vierbergen",10.095515,53.547643
+"185",252498,"Billstedter Platz/Öjendorfer Weg",10.106106,53.540096
+"186",252499,"Manshardtstraße/EKZ Manshardtstraße",10.107447,53.559215
+"187",252500,"Osdorfer Landstraße/ Elbe-Einkaufszentrum",9.862423,53.571629
+"188",252788,"Alsterdorf Markt/Evangelische Stiftung",10.0239462,53.6120909
+"189",253227,"Neuländer Kamp/Eurofins ",10.0041327,53.4616513
+"190",253357,"Djarkartaweg/Sengelmannstraße",10.022685,53.609163
+"191",254723,"S Nettelnburg/Friedrich-Frank-Bogen",10.182199,53.488482
+"192",254724,"Wentorfer Straße/Bezirksamt Bergedorf",10.22,53.487427
+"193",254725,"Vierlandenstraße/Johann-Adolf-Hasse-Platz",10.210913,53.488449
+"194",254726,"Lohbrügger Markt/Ludwig-Rosenberg-Ring",10.206894,53.494675
+"195",254727,"Bahnhof Bergedorf/Johann-Meyer-Straße",10.206105,53.490496
+"196",254728,"S Allermöhe/Walter-Rudolphi-Weg",10.158515,53.490126
+"197",255298,"Friedrich-Ebert-Damm/Helbingtwiete",10.095665,53.588172
+"198",255299,"Charlie-Mills-Straße/Friedrich-Ebert-Damm",10.106858,53.59145
+"199",255302,"Rahlstedter Weg/Berner Heerweg",10.12021,53.606246
+"200",255303,"Gründgensstraße/César-Klein-Ring",10.058096,53.610149
+"201",255305,"Traberweg/Eckerkoppel",10.101459,53.598017
+"202",256467,"Röntgenstraße/Philips",10.0122088,53.6234809
+"203",264330,"Bleickenallee/Kinderkrankenhaus Altona",9.9129134,53.5512881
+"204",264820,"Osterstraße/Heußweg",9.9520709,53.5759831
+"205",264821,"Bahrenfelder Chaussee/Von-Sauer-Straße",9.9108696,53.5659729
+"206",268358,"Sieldeich/ Gresham Carat Hotel",10.021814,53.528309
+"207",138370,"Grindelberg / Bezirksamt Eimsbuettel",9.977883,53.575384
+"208",242731,"Maretstrasse / Baererstrasse",9.982299,53.453659
