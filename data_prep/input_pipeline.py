@@ -34,7 +34,9 @@ def load_matrix(file_path: bytes, all_rows: List[str]) -> np.ndarray:
 def data_generator(file_list: List[bytes], all_rows: List[str]):
     for file in file_list:
         matrix = load_matrix(file, all_rows)
-        yield matrix, get_hour(file)
+        hour_vector = np.zeros(24)
+        hour_vector[get_hour(file)] = 1
+        yield matrix, hour_vector
 
 
 def get_dataset(file_names: List[str], stations_file: str) -> tf.data.Dataset:
@@ -43,7 +45,7 @@ def get_dataset(file_names: List[str], stations_file: str) -> tf.data.Dataset:
     return tf.data.Dataset.from_generator(
         data_generator,
         (tf.int32, tf.int32),
-        (tf.TensorShape([len(all_rows), len(all_rows)]), tf.TensorShape([])),
+        (tf.TensorShape([len(all_rows), len(all_rows)]), tf.TensorShape([24])),
         args=[file_names, all_rows])
 
 
