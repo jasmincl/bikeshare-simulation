@@ -1,6 +1,6 @@
 import glob
 import re
-from functools import partial
+import random
 from typing import List
 
 import pandas as pd
@@ -39,6 +39,7 @@ def data_generator(file_list: List[bytes], all_rows: List[str]):
 
 def get_dataset(file_names: List[str], stations_file: str) -> tf.data.Dataset:
     all_rows = create_station_rows(stations_file)
+    random.shuffle(file_names)
     return tf.data.Dataset.from_generator(
         data_generator,
         (tf.int32, tf.int32),
