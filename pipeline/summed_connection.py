@@ -1,6 +1,7 @@
 import glob
 import pickle
 import random
+from timeit import timeit
 from typing import List, Dict
 
 import numpy as np
@@ -31,5 +32,7 @@ def get_dataset(file_names: List[str], number_stations: int) -> tf.data.Dataset:
 if __name__ == "__main__":
     matrix_paths = glob.glob("../data/pickle_data/*.pickle")
     data = get_dataset(matrix_paths, 208)
-    # Get first 10 samples
-    print(data.batch(10).as_numpy_iterator().__next__())
+    # time performance
+    iterator = data.batch(10).as_numpy_iterator()
+    iterator.__next__()
+    print(timeit(lambda: [x for x in iterator], number=2))

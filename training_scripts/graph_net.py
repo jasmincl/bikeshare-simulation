@@ -1,26 +1,24 @@
-import numpy as np
+import glob
+
 from tensorflow import keras
 
 from models.model_definition import graph_model
+from pipeline.graph_net import get_dataset
 
 if __name__ == "__main__":
-    # ToDo: Write input data pipeline and train Model with real data
-    model = graph_model(node_feature_dim=2, edge_feature_dim=3, global_feature_dim=5)
+    stations_path = "../data/stations_data.csv"
+    training_paths = [f"../data/pickle_data/2016-{i:02}.pickle" for i in range(1, 7)]
+    validation_paths = glob.glob("../data/pickle_data/2016-07.pickle")
+
+    data = get_dataset(training_paths, stations_path).shuffle(50).batch(1)
+    validation_data = get_dataset(validation_paths, stations_path).cache().batch(1)
+
+    model = graph_model(node_feature_dim=2, edge_feature_dim=1, global_feature_dim=1)
 
     model.compile(
         loss=keras.losses.CategoricalCrossentropy(),
         optimizer=keras.optimizers.RMSprop(),
         metrics=["accuracy"],
     )
-    test_data = [
-        np.random.sample([100, 50, 2]),
-        np.random.sample([100, 100, 3]),
-        np.random.randint(low=0, high=49, size=[100, 100]),
-        np.random.randint(low=0, high=49, size=[100, 100]),
-        np.random.sample([100, 5]),
-    ]
-    test_labels = np.zeros((100, 24))
-    for i in range(100):
-        test_labels[i][np.random.randint(low=0, high=23, size=1)[0]] = 1
 
-    model.fit(test_data, test_labels, epochs=10, batch_size=5)
+    model.fit(data, validation_data=validation_data, epochs=10)
