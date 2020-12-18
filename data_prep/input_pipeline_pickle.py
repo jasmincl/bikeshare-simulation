@@ -23,7 +23,8 @@ def get_dataset(file_names: List[str], number_stations: int) -> tf.data.Dataset:
         data_generator,
         (tf.int32, tf.int32),
         (tf.TensorShape([number_stations, number_stations]), tf.TensorShape([24])),
-        args=[file_names])
+        args=[file_names],
+    )
 
 
 # Test tf.data.Dataset
@@ -32,4 +33,3 @@ if __name__ == "__main__":
     data = get_dataset(matrix_paths, 208)
     # Get first 10 samples
     print(data.batch(10).as_numpy_iterator().__next__())
-

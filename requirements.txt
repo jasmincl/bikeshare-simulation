@@ -5,3 +5,4 @@ tqdm
 scipy
 dm-sonnet>=2.0.0b0
 graph_nets
+pre-commit

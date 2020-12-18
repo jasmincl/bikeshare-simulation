@@ -19,6 +19,11 @@ if __name__ == "__main__":
     model.compile(
         loss=keras.losses.CategoricalCrossentropy(),
         optimizer=keras.optimizers.RMSprop(),
-        metrics=["accuracy", keras.metrics.TopKCategoricalAccuracy(k=3, name="top_3_categorical_accuracy")],
+        metrics=[
+            "accuracy",
+            keras.metrics.TopKCategoricalAccuracy(
+                k=3, name="top_3_categorical_accuracy"
+            ),
+        ],
     )
     model.fit(data, validation_data=validation_data, epochs=50)

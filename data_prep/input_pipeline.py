@@ -9,7 +9,9 @@ import tensorflow as tf
 
 
 def create_station_rows(file_path: str) -> List[str]:
-    return pd.read_csv(file_path, encoding='iso-8859-1', dtype=str).station_id.values.tolist()
+    return pd.read_csv(
+        file_path, encoding="iso-8859-1", dtype=str
+    ).station_id.values.tolist()
 
 
 def get_hour(file_path: bytes) -> int:
@@ -19,7 +21,9 @@ def get_hour(file_path: bytes) -> int:
 
 def load_matrix(file_path: bytes, all_rows: List[str]) -> np.ndarray:
     file_path = file_path.decode("utf-8")
-    df = pd.read_csv(file_path, dtype={"start_station_id": str}).set_index("start_station_id", drop=True)
+    df = pd.read_csv(file_path, dtype={"start_station_id": str}).set_index(
+        "start_station_id", drop=True
+    )
     all_rows_set = set(all_rows)
     missing_cols = all_rows_set - set(df.columns)
     for col in missing_cols:
@@ -46,7 +50,8 @@ def get_dataset(file_names: List[str], stations_file: str) -> tf.data.Dataset:
         data_generator,
         (tf.int32, tf.int32),
         (tf.TensorShape([len(all_rows), len(all_rows)]), tf.TensorShape([24])),
-        args=[file_names, all_rows])
+        args=[file_names, all_rows],
+    )
 
 
 # Test tf.data.Dataset
