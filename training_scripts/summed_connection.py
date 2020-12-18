@@ -2,7 +2,7 @@ import glob
 
 from tensorflow import keras
 
-from data_prep.input_pipeline_pickle import get_dataset
+from pipeline.summed_connection import get_dataset
 from models.model_definition import summed_connection
 
 number_stations = 208
@@ -19,11 +19,6 @@ if __name__ == "__main__":
     model.compile(
         loss=keras.losses.CategoricalCrossentropy(),
         optimizer=keras.optimizers.RMSprop(),
-        metrics=[
-            "accuracy",
-            keras.metrics.TopKCategoricalAccuracy(
-                k=3, name="top_3_categorical_accuracy"
-            ),
-        ],
+        metrics=["accuracy"],
     )
     model.fit(data, validation_data=validation_data, epochs=50)

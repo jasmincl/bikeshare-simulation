@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 import os
 import pickle
 from datetime import datetime, timedelta
@@ -70,26 +71,27 @@ def write_pickle_files(
         stations_data.index[0], stations_data.index[-1]
     )
 
-    tmp_hours, tmp_sparse_array = [], []
+    features, last_rides = [], None
     for min_datetime, max_datetime in tqdm.tqdm(time_array):
-        tmp_sparse_array.append(
-            create_sparse_matrix(
-                stations_data, min_datetime, max_datetime, stations_mapping
-            )
+        current_rides = create_sparse_matrix(
+            stations_data, min_datetime, max_datetime, stations_mapping
         )
-        tmp_hours.append(min_datetime.hour)
+        if last_rides is not None:
+            features.append(
+                dict(
+                    start_time=min_datetime,
+                    end_time=max_datetime,
+                    current_rides=current_rides,
+                    last_rides=last_rides,
+                )
+            )
+
         if max_datetime.day == 1 and max_datetime.hour == 0:
             file_name = f"{min_datetime.year}-{min_datetime.month:02}.pickle"
             with open(os.path.join(path, file_name), "wb") as file:
-                pickle.dump(
-                    {
-                        "start_time": min_datetime,
-                        "end_time": max_datetime,
-                        "current_rides": tmp_sparse_array,
-                    },
-                    file,
-                )
-            tmp_hours, tmp_sparse_array = [], []
+                pickle.dump(features, file)
+            features = []
+        last_rides = current_rides
 
 
 if __name__ == "__main__":

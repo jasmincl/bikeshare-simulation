@@ -1,7 +1,7 @@
 import glob
 import pickle
 import random
-from typing import List
+from typing import List, Dict
 
 import numpy as np
 import tensorflow as tf
@@ -10,11 +10,11 @@ import tensorflow as tf
 def data_generator(file_list: List[bytes]):
     for file_path in file_list:
         with open(file_path, "rb") as file:
-            data = pickle.load(file)
-        for feature, label in zip(data["feature"], data["label"]):
+            feature_list: List[Dict] = pickle.load(file)
+        for feature in feature_list:
             label_dense = np.zeros(24)
-            label_dense[label] = 1
-            yield feature.toarray(), label_dense
+            label_dense[feature["start_time"].hour] = 1
+            yield feature["current_rides"].toarray(), label_dense
 
 
 def get_dataset(file_names: List[str], number_stations: int) -> tf.data.Dataset:
