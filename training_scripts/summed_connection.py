@@ -12,10 +12,10 @@ if __name__ == "__main__":
     training_paths = [f"../data/pickle_data/2016-{i:02}.pickle" for i in range(1, 7)]
     validation_paths = glob.glob("../data/pickle_data/2016-07.pickle")
 
-    data = get_dataset(training_paths, number_stations).shuffle(50).batch(5)
-    validation_data = get_dataset(validation_paths, number_stations).cache().batch(5)
+    data = get_dataset(training_paths, stations_path).shuffle(50).batch(5)
+    validation_data = get_dataset(validation_paths, stations_path).cache().batch(5)
 
-    model = summed_connection((number_stations, number_stations))
+    model = summed_connection((number_stations,))
     model.compile(
         loss=keras.losses.CategoricalCrossentropy(),
         optimizer=keras.optimizers.RMSprop(),

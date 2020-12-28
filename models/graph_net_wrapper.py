@@ -5,6 +5,7 @@ import tensorflow as tf
 from graph_nets.graphs import GraphsTuple
 from tensorflow import keras
 
+
 keras.backend.set_floatx("float64")
 
 
@@ -72,6 +73,9 @@ class GraphNetWrapper(keras.layers.Layer):
             number_features_global=input_shape[4][-1],
         )
         self._call_graph(example_inputs)
+        for ind, var in enumerate(self.graph_net.trainable_variables):
+            setattr(self, f"weight_{ind}", var)
+        super().build(input_shape)
 
     def call(self, inputs, **kwargs):
         return tf.map_fn(self._call_graph, inputs)
