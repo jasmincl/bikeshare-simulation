@@ -31,6 +31,3 @@ if __name__ == "__main__":
     )
 
     model.fit(data, validation_data=validation_data, epochs=10)
-    while True:
-        model.fit(data, epochs=1, steps_per_epoch=100)
-    model.fit(data, epochs=1, steps_per_epoch=100)
